@@ -137,23 +137,23 @@ The Game class manages the state and rules of each game instance.
 - ```teams```: Object storing each player's team
 
 ### Methods
-```initializeBoard()```
+- ```initializeBoard()```
 Initializes an empty 5x5 game board.
-```addPlayer(playerId)```
+- ```addPlayer(playerId)```
 Adds a player to the game if there's room.
-```removePlayer(playerId)```
+- ```removePlayer(playerId)```
 Removes a player from the game.
-```setupTeam(playerId, team)```
+- ```setupTeam(playerId, team)```
 Sets up a player's team on the board.
-```isValidMove(playerId, move)```
+- ```isValidMove(playerId, move)```
 Checks if a move is valid for the current player and game state.
-```makeMove(move)```
+- ```makeMove(move)```
 Executes a move on the board and updates the game state.
-```getState()```
+- ```getState()```
 Returns the current game state (board, current turn, teams).
-```isGameOver()```
+- ```isGameOver()```
 Checks if the game is over.
-```getWinner()```
+- ```getWinner()```
 Returns the winning player if the game is over.
 
 ### Character Classes (Pawn.js, Hero1.js, Hero2.js)
