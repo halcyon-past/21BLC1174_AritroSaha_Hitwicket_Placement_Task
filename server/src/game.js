@@ -45,7 +45,7 @@ class Game {
       console.log('Invalid team length');
       return false;
     }
-    const validCharacters = ['P', 'H1', 'H2'];
+    const validCharacters = ['P1', 'H1', 'H2', 'P2', 'P3',];
     if (!team.every(char => validCharacters.includes(char.slice(0, 2)))) {
       console.log('Invalid character in team');
       return false;

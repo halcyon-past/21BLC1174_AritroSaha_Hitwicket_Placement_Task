@@ -55,7 +55,7 @@ io.on('connection', (socket) => {
   socket.on('joinGame', (gameId) => {
     console.log('Join game attempt', gameId);
     const game = games.get(gameId);
-    if (game && game.addPlayer(socket.id)) {
+    if (game) {
       socket.join(gameId);
       console.log('Player joined game', gameId);
       if (game.players.length === 2) {
