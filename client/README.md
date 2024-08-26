@@ -1,7 +1,7 @@
 # Chess-like Game Frontend Documentation
 
 - Created by Aritro Saha (21BLC1174)
-- Created as a part of placement task in HATTRICK
+- Created as a part of placement task in Hitwicket
 
 ## Overview
 
