@@ -7,6 +7,24 @@
 
 This project implements a turn-based, chess-like game with a server-client architecture. It features real-time gameplay using WebSocket communication and a web-based user interface.
 
+## Screenshots
+
+#### Main Screen
+
+![MainScreen](./assets/Homescreen.png)
+
+#### 1st Player Joined
+
+![1PlayerJoin](./assets/1playerjoin.png)
+
+#### 2nd Player Joined
+
+![2PlayerJoin](./assets/2playerjoin.png)
+
+#### Mid Game Screenshot
+
+![MidGame](./assets/gameon.png)
+
 ## Technologies Used
 
 ### Backend
