@@ -36,10 +36,10 @@ cd server
 npm install
 ```
 3. Start the server:
-```
-npm run dev
-```
-The server will start running on `http://localhost:3000`.
+    ```
+    npm run dev
+    ```
+    The server will start running on `http://localhost:3000`.
 
 ### Frontend Setup
 1. Navigate to the client directory:
