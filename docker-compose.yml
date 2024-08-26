@@ -1,0 +1,23 @@
+version: '3.8'
+services:  
+  server:    
+    build: ./server    
+    ports:      
+      - "3000:3000"    
+    volumes:      
+      - ./server:/usr/src/app    
+    environment:      
+      - NODE_ENV=development    
+    command: npm run dev    
+    depends_on:     
+      - client  
+  
+  client:    
+    build: ./client    
+    ports:     
+      - "5173:5173"    
+    volumes:      
+      - ./client:/usr/src/app    
+    environment:      
+      - NODE_ENV=development    
+    command: npm run dev
