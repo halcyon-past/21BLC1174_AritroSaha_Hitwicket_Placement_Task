@@ -116,7 +116,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Chess-like Game</h1>
+      <h1>Chess-like Game - Built by Aritro Saha (21BLC1174)</h1>
       <Controls
         onCreateGame={handleCreateGame}
         onJoinGame={handleJoinGame}
