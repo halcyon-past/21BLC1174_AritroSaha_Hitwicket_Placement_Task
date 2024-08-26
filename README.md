@@ -24,6 +24,7 @@ This project implements a turn-based, chess-like game with a server-client archi
 ### Prerequisites
 - Node.js (v14 or later)
 - npm (v6 or later)
+- Docker (optional, for containerized setup)
 
 ### Backend Setup
 1. Navigate to the server directory:
@@ -54,6 +55,35 @@ npm install
 npm run dev
 ```
 The frontend will be accessible at `http://localhost:5173`.
+
+### Docker Setup
+If you prefer to run the project using Docker, follow these steps:
+
+#### Prerequisites
+- Docker
+- Docker Compose
+
+#### Running the Project with Docker Compose
+
+1. Ensure Docker is installed and running on your machine.
+
+2. Navigate to the root directory of your project where the docker-compose.yml file is located.
+
+3. Build and start the services:
+
+```
+docker-compose up --build
+```
+This will start both the backend and frontend services in development mode.
+
+4. Access the frontend at ```http://localhost:5173``` and the backend at ```http://localhost:3000```.
+
+#### Stopping the Containers
+To stop the running containers, use:
+
+```
+docker-compose down
+```
 
 ## Running the Game
 
