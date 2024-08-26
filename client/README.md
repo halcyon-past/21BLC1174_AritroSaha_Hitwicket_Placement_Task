@@ -1,5 +1,8 @@
 # Chess-like Game Frontend Documentation
 
+- Created by Aritro Saha (21BLC1174)
+- Created as a part of placement task in HATTRICK
+
 ## Overview
 
 This frontend implements a web-based interface for a turn-based chess-like game using React. It manages game creation, joining, team setup, and gameplay through a WebSocket connection to the backend.

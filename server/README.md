@@ -1,5 +1,8 @@
 # Chess-like Game Backend Documentation
 
+- Created by Aritro Saha (21BLC1174)
+- Created as a part of placement task in HATTRICK
+
 ## Overview
 
 This backend implements a server for a turn-based chess-like game using Node.js, Express, and Socket.IO. It manages game creation, player connections, team setup, and move validation.
