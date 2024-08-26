@@ -10,21 +10,21 @@ This project implements a turn-based, chess-like game with a server-client archi
 ## Technologies Used
 
 ### Backend
-- Node.js
-- Express.js
-- Socket.IO
+- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+- ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+- ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 
 ### Frontend
-- React
-- Vite (for build and development)
-- Socket.IO Client
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) (for build and development)
+- ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) Client
 
 ## Setup and Installation
 
 ### Prerequisites
-- Node.js (v14 or later)
-- npm (v6 or later)
-- Docker (optional, for containerized setup)
+- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) (v14 or later)
+- ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) (v6 or later)
+- ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) (optional, for containerized setup)
 
 ### Backend Setup
 1. Navigate to the server directory:
