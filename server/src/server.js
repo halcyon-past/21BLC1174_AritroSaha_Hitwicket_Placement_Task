@@ -28,7 +28,13 @@ io.on('connection', (socket) => {
 
   socket.on('setupTeam', ({ gameId, team }) => {
     console.log('Setup team attempt', gameId, team);
+    console.log('Player ID:', socket.id);
     const game = games.get(gameId);
+    if (game) {
+      console.log('Game found');
+      const setupResult = game.setupTeam(socket.id, team);
+      console.log('Setup result:', setupResult);
+    }
     if (game && game.setupTeam(socket.id, team)) {
       console.log('Team setup successful');
       if (game.areTeamsReady()) {

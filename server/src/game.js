@@ -39,21 +39,26 @@ class Game {
   }
 
   setupTeam(playerId, team) {
-    if (team.length !== 5) return false;
+    console.log('Setting up team for player:', playerId);
+    console.log('Team composition:', team);
+    if (team.length !== 5) {
+      console.log('Invalid team length');
+      return false;
+    }
     const validCharacters = ['P', 'H1', 'H2'];
-    if (!team.every(char => validCharacters.includes(char.slice(0, 2)))) return false;
+    if (!team.every(char => validCharacters.includes(char.slice(0, 2)))) {
+      console.log('Invalid character in team');
+      return false;
+    }
     
     const row = this.players.indexOf(playerId) === 0 ? 0 : 4;
+    console.log('Player row:', row);
     this.teams[playerId] = team.map((char, index) => {
       const piece = `${playerId.slice(0, 1)}-${char}`;
       this.board[row][index] = piece;
       return piece;
     });
-
-    if (this.areTeamsReady()) {
-      this.currentTurn = this.players[0];
-    }
-
+  
     console.log('Team setup complete. Current board state:', this.board);
     return true;
   }

@@ -92,11 +92,11 @@ function App() {
   }, [socket]);
 
   const handleSetupTeam = useCallback((team) => {
-    if (socket) {
+    if (socket && gameId) {
       console.log('Emitting setupTeam event', { gameId, team });
       socket.emit('setupTeam', { gameId, team });
     } else {
-      setStatus('Socket not connected. Please try again.');
+      setStatus('Game not ready or socket not connected. Please try again.');
     }
   }, [socket, gameId]);
 
