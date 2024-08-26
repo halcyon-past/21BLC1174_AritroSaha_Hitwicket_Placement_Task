@@ -6,7 +6,7 @@
   "keywords": [],
   "author": "Aritro Saha (21BLC1174)",
   "license": "ISC",
-  "description": "A game created from hattrick placements by Aritro Saha",
+  "description": "A game created for hattrick placements by Aritro Saha",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
