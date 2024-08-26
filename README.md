@@ -28,13 +28,13 @@ This project implements a turn-based, chess-like game with a server-client archi
 
 ### Backend Setup
 1. Navigate to the server directory:
-```
-cd server
-```
+    ```
+    cd server
+    ```
 2. Install dependencies:
-```
-npm install
-```
+    ```
+    npm install
+    ```
 3. Start the server:
     ```
     npm run dev
@@ -43,17 +43,17 @@ npm install
 
 ### Frontend Setup
 1. Navigate to the client directory:
-```
-cd client
-```
+    ```
+    cd client
+    ```
 2. Install dependencies:
-```
-npm install
-```
+    ```
+    npm install
+    ```
 3. Start the development server:
-```
-npm run dev
-```
+    ```
+    npm run dev
+    ```
 The frontend will be accessible at `http://localhost:5173`.
 
 ### Docker Setup
@@ -71,10 +71,10 @@ If you prefer to run the project using Docker, follow these steps:
 
 3. Build and start the services:
 
-```
-docker-compose up --build
-```
-This will start both the backend and frontend services in development mode.
+    ```
+    docker-compose up --build
+    ```
+    This will start both the backend and frontend services in development mode.
 
 4. Access the frontend at ```http://localhost:5173``` and the backend at ```http://localhost:3000```.
 
